@@ -8,8 +8,24 @@
 <body>
   <h2>我是一个小标题</h2>
   <p>我是一个段落</p>
-  <div>我是一个div</div>  dv
+  <div>我是一个div</div>  
 </body>
+<script>
+  console.log([] instanceof Array);
+  console.log(1 instanceof Number);
+  console.log(typeof 1);
+  console.log(Object.prototype.toString.call([]));
+  let obj = { a: 0 };
+function test(obj) {
+    obj.a = 1;
+    obj = { a: 2 };
+    obj.b = 3;
+}
+test(obj);
+console.log(obj); 
+
+  
+</script>
 </html>
 
 
